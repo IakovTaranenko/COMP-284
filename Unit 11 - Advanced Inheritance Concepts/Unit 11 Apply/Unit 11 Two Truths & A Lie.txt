@@ -1,0 +1,42 @@
+Unit 11 Two Truths & A Lie
+
+1. Two of the following statements are true, and one is false. Identify the false statement and explain why it is false.
+	a. An abstract class is one from which you cannot inherit, but from which you can create concrete objects. [CORRECT]
+	b. Abstract classes usually have one or more empty abstract methods.	
+	c. An abstract method has no body, curly braces, or statements.	
+
+2. Identify the false statement and explain why it is false.
+	a. Dynamic method binding refers to a program's ability to select the correct subclass method for a superclass reference while a program is running.	
+	b. If Parent is a parent class and Child is its child, then you can assign a Parent object to a Child reference. [CORRECT]
+	c. If Parent is a parent class and Child is its child, then you can assign a Child object to a Parent reference.
+
+3. Identify the false statement and explain why it is false.
+	a. You can assign subclass objects to an array that is their superclass type.	
+	b. The following statement creates an array of 10 Table references:
+		Table[] table = new Table[10];	
+	c. You can assign a superclass reference to an array of its subclass type. [CORRECT]
+
+4. Identify the false statement and explain why it is false.
+	a. When you define a class, if you do not explicitly extend another class, your class is an extension of the Object class.	
+	b. The Object class is defined in the java.lang package that is imported automatically every time you write a program.	
+	c. The Object class toString() and equals() methods are abstract. [CORRECT]
+
+5. Identify the false statement and explain why it is false.
+	a. If object-oriented programs did not support inheritance, programs still could be written, but they would be harder to write.	
+	b. When you create a new subclass in Java, you must remember to revise and recompile the superclass code. [CORRECT]
+	c. When you create a useful, extendable superclass, you save development and testing time.
+
+6. Identify the false statement and explain why it is false.
+	a. Java's capability to inherit from more than one class is called multiple inheritance. [CORRECT]
+	b. When a class inherits from another, the child class can use the nonprivate, nonoverridden members of its parent's class, but when a class uses an interface, it must implement its own version of each method.	
+	c. All of the methods in an interface are implicitly public and abstract, and all of its data items (if any) are implicitly public, static, and final.
+
+7. Identify the false statement and explain why it is false.
+	a. If an anonymous inner class extends another class, the superclass must have a default constructor.	
+	b. An anonymous inner class is defined inside another class.	
+	c. You use the keyword extends when defining the class an anonymous inner class. [CORRECT]
+
+8. Identify the false statement and explain why it is false.
+	a. A class that will be placed in a package for others to use must be protected so that others cannot read your source code. [CORRECT]
+	b. Java's creators have defined a package-naming convention in which you use your Internet domain name in reverse order.	
+	c. Typically, you place .class files in a package so other programmers can import them into their programs.
