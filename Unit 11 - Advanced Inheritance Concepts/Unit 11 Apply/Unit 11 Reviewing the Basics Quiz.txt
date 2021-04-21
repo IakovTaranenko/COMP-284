@@ -1,0 +1,137 @@
+Unit 11 Reviewing the Basics Quiz
+
+1. An application's ability to select the correct subclass method to execute is known as ____________ method binding.
+
+    polymorphic
+    intelligent
+    early
+    dynamic [CORRECT]
+
+2. An abstract class Dwelling has two subclasses, SingleFamily and MultiFamily. None of the constructors for these classes requires any arguments. Which of the following statements is legal?
+
+    MultiFamily myHome = new Dwelling();
+    SingleFamily myHome = new SingleFamily(); [CORRECT]
+    Dwelling myHome = new Dwelling();
+    two of the above
+
+3. When you create a superclass and one or more subclasses, each object of the subclass "is a" superclass object.
+
+    True [CORRECT]
+    False
+
+4. The Object class equals() method considers two object references to be equal if they have the same ____________.
+
+    value in all data fields
+    data type
+    memory address [CORRECT]
+    value in any data field
+
+5. When you create a ____________ in Java, you create a variable name in which you can hold the memory address of an object.
+
+    field
+    reference [CORRECT]
+    pointer
+    recommendation
+
+6. Which of the following statements is true?
+
+    You can create an abstract class object using the new operator.
+    Superclasses can contain abstract methods. [CORRECT]
+    An abstract class cannot contain an abstract method.
+    Superclass objects are members of their subclass.
+
+7. You can instantiate concrete objects from a(n) ____________.
+
+    abstract class
+    interface
+    either a or b
+    neither a nor b [CORRECT]
+
+8. Which statement creates an array of five references to an abstract class named Currency ?
+
+    Currency[5] currencyref = new Currency[5];
+    Currency[] currencyref = new Currency[5]; [CORRECT]
+    Currency[5] = new Currency[5];
+    Currency[] = new Currency[5];
+
+9. Each Java subclass has the ability to inherit from ____________ parent class(es).
+
+    one [CORRECT]
+    zero
+    any number of
+    two
+
+10. The alternative to multiple inheritance in Java is known as a(n) ____________.
+
+    abstract class
+    interface [CORRECT]
+    superobject
+    none of the above
+
+11. The Object class equals() method takes two arguments.
+
+    True
+    False [CORRECT]
+
+12. Assume the following statement appears in a working Java program and that the equals() method has been overridden correctly in thing's class:
+    if(thing.equals(anotherThing)) x = 1;
+    You know that ____________.
+
+    thing is an object of the Object class
+    anotherThing is the same type as thing [CORRECT]
+    Every field in thing has the same value as its counterpart in anotherThing.
+    All of the above are correct.
+
+13. In Java, a class can ____________.
+
+    inherit from one abstract superclass at most [CORRECT]
+    implement one interface at most
+    both a and b
+    neither a nor b
+
+14. Abstract classes differ from other classes in that you ____________.
+
+    must not code any methods within them
+    cannot have data fields within them
+    cannot instantiate objects from them [CORRECT]
+    must instantiate objects from them
+
+15. Abstract classes can contain ____________.
+
+    abstract methods
+    nonabstract methods
+    both of the above [CORRECT]
+    none of the above
+
+16. You ____________ override the toString() method in any class you create.
+
+    cannot
+    can [CORRECT]
+    must
+    must implement StringListener to
+
+17. Parent classes are more specific than their child classes.
+
+    True
+    False [CORRECT]
+
+18. When you create a class that uses an interface, you include the keyword ____________ and the interface's name in the class header.
+
+    interface
+    listener
+    implements [CORRECT]
+    accoutrements
+
+19. When you want to provide some data or methods that subclasses can inherit, but you want the subclasses to override some specific methods, you should write a(n) ____________.
+
+    abstract class [CORRECT]
+    final superclass
+    interface
+    concrete object
+
+20. An abstract class Employee has two subclasses, Permanent and Temporary. The Employee class contains an abstract method named setType(). Before you can instantiate Permanent and Temporary objects, which of the following statements must be true?
+
+    You must not code statements for the setType() method within either the Permanent or Temporary class.
+    You can code statements for the setType() method within the Permanent class or the Temporary class, but not both.
+    You must code statements for the setType() method within both the Permanent and Temporary classes. [CORRECT]
+    You must code statements for the setType() method within the Permanent class.
