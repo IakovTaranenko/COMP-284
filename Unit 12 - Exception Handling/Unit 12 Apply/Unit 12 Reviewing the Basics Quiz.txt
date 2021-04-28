@@ -1,0 +1,133 @@
+Unit 12 Reviewing the Basics Quiz
+
+1. An advantage to using a try...catch block is that exceptional events are ____________.
+
+    integrated with regular events
+    reduced
+    eliminated
+    isolated from regular events [CORRECT]
+
+2. A method that detects an error condition or Exception ____________ an Exception.
+
+    handles
+    catches
+    encapsulates
+    throws [CORRECT]
+
+3. In object-oriented terminology, you ____________ a procedure that might not complete correctly.
+
+    encapsulate
+    try [CORRECT]
+    catch
+    handle
+
+4. The segment of code that handles or takes appropriate action following an exception is a catch block.
+
+    True [CORRECT]
+    False
+
+5. All Java Exceptions are ____________.
+
+    Omissions
+    Throwables [CORRECT]
+    Errors
+    RunTimeExceptions
+
+6. When a try block does not generate an Exception and you have included multiple catch blocks, only the first matching one executes.
+
+    True
+    False [CORRECT]
+
+7. You can get a list of the methods through which an Exception has traveled by using the ____________ method.
+
+    getMessage()
+    callStack()
+    getPath()
+    printStackTrace() [CORRECT]
+
+8. A method can ____________.
+
+    check for errors but not handle them
+    handle errors but not check for them
+    either of the above [CORRECT]
+    neither of the above
+
+9. Which of the following statements is true?
+
+    Errors are more serious than Exceptions. [CORRECT]
+    Exceptions and Errors are the same thing.
+    Exceptions are more serious than Errors.
+    Errors and Exceptions are different but equally serious.
+
+10. The method that ends the current application and returns control to the operating system is ____________.
+
+    System.abort()
+    System.done()
+    System.end()
+    System.exit() [CORRECT]
+
+11. In object-oriented programming terminology, an unexpected or error condition is a(n) ____________.
+
+    anomaly
+    deviation
+    exception [CORRECT]
+    aberration
+
+12. Any method can throw an Exception.
+
+    True [CORRECT]
+    False 
+
+13. A try block includes all of the following elements except ____________.
+
+    statements that might cause Exceptions
+    the keyword try
+    the keyword catch [CORRECT]
+    curly braces
+
+14. The code within a finally block executes when the try block ____________.
+
+    identifies one or more Exceptions
+    does not identify any Exceptions
+    either a or b [CORRECT]
+    neither a nor b
+
+15. You ____________ within a try block.
+
+    must place only a single statement
+    must place at least two statements
+    must place a catch block
+    can place any number of statements [CORRECT]
+
+16. If you include three statements in a try block and follow the block with three catch blocks, and the second statement in the try block throws an Exception, then ____________.
+
+    the first catch block executes
+    only the second catch block executes
+    the first two catch blocks execute
+    the first matching catch block executes [CORRECT]
+
+17. Which of the following is least important to know if you want to be able to use a method to its full potential?
+
+    the number of statements within the method [CORRECT]
+    the type of Exceptions the method throws
+    the type of arguments the method requires
+    the method's return type
+
+18. A(n) ____________ is a statement used in testing programs that should be true; if it is not true, an Exception is thrown.
+
+    declaration
+    throwable
+    verification
+    assertion [CORRECT]
+
+19. The memory location where the computer stores the list of method locations to which the system must return is known as the registry.
+
+    True
+    False [CORRECT]
+
+20. The catch block that begins catch(Exception e) can catch Exceptions of type ____________.
+
+    IOException
+    ArithmeticException
+    both of the above [CORRECT]
+    none of the above
