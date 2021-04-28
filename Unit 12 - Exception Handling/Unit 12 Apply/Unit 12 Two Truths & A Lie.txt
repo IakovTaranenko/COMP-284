@@ -1,0 +1,51 @@
+Unit 12 Two Truths & A Lie
+
+1. Two of the following statements are true, and one is false. Identify the false statement and explain why it is false.
+	a. The Error class represents serious errors from which your program usually cannot recover, but the Exception class comprises less serious errors from which the program can recover.	
+	b. Exception handling is the name for the object-oriented techniques used to manage runtime errors.	
+	c. When exceptions occur, object-oriented programs must handle them. [CORRECT]
+
+2. Identify the false statement and explain why it is false.
+	a. A try block is a block of code you attempt to execute while acknowledging that an exception might occur.	
+	b. You usually code at least one catch block immediately following a try block to handle an exception that might be thrown by the try block.	
+	c. A throw statement is one that sends an Exception object to a try block so it can be handled. [CORRECT]
+
+3. Identify the false statement and explain why it is false.
+	a. When multiple try block statements throw exceptions, multiple catch blocks might execute. [CORRECT]
+	b. When a program contains multiple catch blocks, the first one that matches the thrown Exception type is the one that executes.	
+	c. As soon as an exception occurs, the try block that contains it is abandoned and the rest of its statements are unexecuted.
+
+4. Identify the false statement and explain why it is false.
+	a. Usually, you use a finally block to perform cleanup tasks that must happen regardless of whether any exceptions occurred and whether any exceptions that occurred were caught.	
+	b. The code within a finally block executes when a try block identifies an exception that is not caught. [CORRECT]
+	c. It's possible that the code that follows a try…catch…finally sequence might never execute—for example, if a try block throws an unhandled exception.	
+
+5. Identify the false statement and explain why it is false.
+	a. In many cases, you want a method to check for errors, but you do not want to require the method to handle an error if it finds one.	
+	b. An advantage to using object-oriented error-handling techniques is that programs are clearer and more flexible.	
+	c. An advantage to using object-oriented error-handling techniques is that when a method throws an exception, it will always be handled in the same, consistent way. [CORRECT]
+
+6. Identify the false statement and explain why it is false.
+	a. If you write a method with a throws clause for a checked exception in the header, then any method that uses your method must catch and handle the possible exception. [CORRECT]
+	b. Many exceptions never have to be explicitly thrown or caught, nor do you have to include a throws clause in the headers of methods that automatically throw these exceptions.	
+	c. Exception specification is the practice of listing possible exceptions in a throws clause in a method header.	
+
+7. Identify the false statement and explain why it is false.
+	a. When a method throws an exception and the method does not catch it, the exception is thrown to the next method down the call stack, or in other words, to the next method that the offending method calls. [CORRECT]
+	b. When you catch an exception, you can call printStackTrace() to display a list of methods in the call stack so you can determine the location of the statement that caused the exception. However, usually you do not want to place a printStackTrace() method call in a finished program.	
+	c. The call stack is where the computer stores the list of locations to which the system must return after each method call.
+
+8. Identify the false statement and explain why it is false.
+	a. The Exception class contains four constructors, including a default constructor and one that requires a String that contains the message that can be returned by the getMessage() method.	
+	b. To create your own throwable Exception class, you should extend the Exception class.	
+	c. You must create your own Exception classes for your programs to be considered truly object oriented. [CORRECT]
+
+9. Identify the false statement and explain why it is false.
+	a. The Boolean expression in an assert statement should always be true if the program is working correctly.	
+	b. To enable an assertion, you must use the -ea option when you execute the program.	
+	c. All logic errors cause a program to terminate, and they should be handled by throwing and catching exceptions. [CORRECT]
+
+10. Identify the false statement and explain why it is false.
+	a. You must have a touch screen to be able to display a virtual keyboard on a Windows system. [CORRECT]
+	b. The Runtime class exec() method throws an IOException.	
+	c. You can write functional Java programs without using exception-handling techniques.
